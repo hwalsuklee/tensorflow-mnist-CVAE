@@ -8,6 +8,8 @@ The paper suggests three models.
 * Generative Semi-Supervised model (M2) : M2 is implemented in here but with full labeled data. My concern is not classification performance of semi-supervised model, but effect of condition vector.  
 * Stacked model (M1+M2) : This is not implemented.
 
+If you are interested in missing parts, please see [original implementation](https://github.com/dpkingma/nips14-ssl) or [replication](https://github.com/saemundsson/semisupervised_vae) of it.
+
 ## Results
 ### Reproduce
 Well trained auto-encoder must be able to reproduce input image.  
