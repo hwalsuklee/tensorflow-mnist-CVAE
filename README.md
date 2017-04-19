@@ -25,15 +25,15 @@ python run_main.py --dim_z 2
 </tr>
 <tr>
 <td> Epoch 1 </td>
-<td><img src = 'results/CVAE/input.jpg' height = '230px'>
-<td><img src = 'results/CVAE/PRR_epoch_00.jpg' height = '230px'>
-<td><img src = 'results/VAE/PRR_epoch_00.jpg' height = '230px'>
+<td><img src = 'samples/CVAE/input.jpg' height = '230px'>
+<td><img src = 'samples/CVAE/PRR_epoch_00.jpg' height = '230px'>
+<td><img src = 'samples/VAE/PRR_epoch_00.jpg' height = '230px'>
 </tr>
 <tr>
 <td> Epoch 20 </td>
-<td><img src = 'results/CVAE/input.jpg' height = '230px'>
-<td><img src = 'results/CVAE/PRR_epoch_19.jpg' height = '230px'>
-<td><img src = 'results/VAE/PRR_epoch_19.jpg' height = '230px'>
+<td><img src = 'samples/CVAE/input.jpg' height = '230px'>
+<td><img src = 'samples/CVAE/PRR_epoch_19.jpg' height = '230px'>
+<td><img src = 'samples/VAE/PRR_epoch_19.jpg' height = '230px'>
 </tr>
 </table>
 
@@ -52,10 +52,10 @@ python run_main.py --dim_z 2 --add_noise True
 <td> Restored image via VAE </td>
 </tr>
 <tr>
-<td><img src = 'results/CVAE/input.jpg' height = '200px'>
-<td><img src = 'results/CVAE/denoised/input_noise.jpg' height = '200px'>
-<td><img src = 'results/CVAE/denoised/PRR_epoch_19.jpg' height = '200px'>
-<td><img src = 'results/VAE/denoised/PRR_epoch_19.jpg' height = '200px'>
+<td><img src = 'samples/CVAE/input.jpg' height = '200px'>
+<td><img src = 'samples/CVAE/denoised/input_noise.jpg' height = '200px'>
+<td><img src = 'samples/CVAE/denoised/PRR_epoch_19.jpg' height = '200px'>
+<td><img src = 'samples/VAE/denoised/PRR_epoch_19.jpg' height = '200px'>
 </tr>
 </table>
 
@@ -72,9 +72,9 @@ python run_main.py --dim_z 2 --PMLR True
 <td> Learned MNIST manifold with a condition of label 4</td>
 </tr>
 <tr>
-<td><img src = 'results/CVAE/PMLR_epoch_19_02.jpg' height = '300px'>
-<td><img src = 'results/CVAE/PMLR_epoch_19_03.jpg' height = '300px'>
-<td><img src = 'results/CVAE/PMLR_epoch_19_04.jpg' height = '300px'>
+<td><img src = 'samples/CVAE/PMLR_epoch_19_02.jpg' height = '300px'>
+<td><img src = 'samples/CVAE/PMLR_epoch_19_03.jpg' height = '300px'>
+<td><img src = 'samples/CVAE/PMLR_epoch_19_04.jpg' height = '300px'>
 </tr>
 </table>
 
@@ -86,7 +86,7 @@ python run_main.py --dim_z 2 --PARR True
 ```
 <table align='center'>
 <tr align='center'>
-<td><img src = 'results/CVAE/PARR_index.jpg' height = '200px'>
+<td><img src = 'samples/CVAE/PARR_index.jpg' height = '200px'>
 </tr>
 </table>
 
@@ -104,8 +104,8 @@ With an obtained z-vector, various images with similar style to the given image 
 <td> generated images </td>
 </tr>
 <tr>
-<td><img src = 'results/Analogical_Reasoning/input.jpg' height = '40px'>
-<td><img src = 'results/Analogical_Reasoning/merged.jpg' height = '40px'>
+<td><img src = 'samples/Analogical_Reasoning/input.jpg' height = '40px'>
+<td><img src = 'samples/Analogical_Reasoning/merged.jpg' height = '40px'>
 </tr>
 </table>
 
@@ -152,4 +152,4 @@ The implementation is based on the projects:
 [2] http://wiseodd.github.io/techblog/2016/12/17/conditional-vae/
 
 ## Acknowledgements
-This implementation has been tested with Tensorflow r0.12 on Windows 10.
+This implementation has been tested with Tensorflow 1.0.1 on Windows 10.
