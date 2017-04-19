@@ -86,7 +86,7 @@ python run_main.py --dim_z 2 --PARR True
 ```
 <table align='center'>
 <tr align='center'>
-<td><img src = 'results/CVAE/PARR_.jpg' height = '200px'>
+<td><img src = 'results/CVAE/PARR_index.jpg' height = '200px'>
 </tr>
 </table>
 
@@ -100,29 +100,11 @@ CVAE encodes a given handwritten digit image to a z-vector. With an obtained z-v
 <table align='center'>
 <tr align='center'>
 <td> input </td>
-<td> generated image 0 </td>
-<td> generated image 1 </td>
-<td> generated image 2 </td>
-<td> generated image 3 </td>
-<td> generated image 4 </td>
-<td> generated image 5 </td>
-<td> generated image 6 </td>
-<td> generated image 7 </td>
-<td> generated image 8 </td>
-<td> generated image 9 </td>
+<td> generated images </td>
 </tr>
 <tr>
-<td><img src = 'results/Analogical_Reasoning/input.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_0.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_1.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_2.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_3.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_4.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_5.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_6.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_7.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_8.jpg' height = '28px'>
-<td><img src = 'results/Analogical_Reasoning/reasoned_9.jpg' height = '28px'>
+<td><img src = 'results/Analogical_Reasoning/input.jpg' height = '40px'>
+<td><img src = 'results/Analogical_Reasoning/merged.jpg' height = '40px'>
 </tr>
 </table>
 
@@ -165,9 +147,8 @@ python run_main.py --dim_z <latent vector dimension>
 
 ## References
 The implementation is based on the projects:  
-[1] https://github.com/wiseodd/generative-models/tree/master/VAE/conditional_vae 
+[1] https://github.com/wiseodd/generative-models/tree/master/VAE/conditional_vae  
 [2] http://wiseodd.github.io/techblog/2016/12/17/conditional-vae/
 
 ## Acknowledgements
-This implementation has been tested with Tensorflow r1.00 on Windows 10.
-
+This implementation has been tested with Tensorflow r0.12 on Windows 10.
