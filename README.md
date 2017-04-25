@@ -92,7 +92,7 @@ python run_main.py --dim_z 2 --PARR True
 </tr>
 </table>
 
-The leftmost columns show images randomly selected from the test set. The other columns show analogical fantasies
+The leftmost columns show images generated from 4 z-vectors. The other columns show analogical fantasies
 of x by the generative model, where the latent variable z of each row is set to the value inferred from
 the test-set image on the left by the inference network.
 
